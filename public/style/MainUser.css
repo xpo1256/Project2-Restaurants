@@ -20,7 +20,7 @@ body , html{
     color: white;
     border: none;
     border-radius: 10px;
-    width: 150px;
+    width: 180px;
     height: 20px;
     padding: 5px;
 }
@@ -32,13 +32,13 @@ body , html{
 
 .Main-container-1{
     display: grid;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(/images/image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(/images/image.png);
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
     justify-content: center;
     color: white;
-    height: 350px;
+    height: 450px;
     background-position:50% 90%; 
 }
 
@@ -57,18 +57,19 @@ body , html{
 }
 .letter{
     margin: 0px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .btn-explore{
-    width: 160px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     border-radius: 10px;
     border: none;
     background-color: rgba(236,119,50,255);
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
-    left: 130px;
+    left: 165px;
+    color: white;
 }
 
 .btn-explore :hover{
@@ -78,5 +79,6 @@ body , html{
 
 .secLetter{
     position: relative;
-
+    left: 75px;
+    font-size: 25px;
 }

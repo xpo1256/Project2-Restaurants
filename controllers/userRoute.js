@@ -8,7 +8,7 @@ router.put('/:id', userController.updateUser)
 router.delete('/:id', userController.auth, userController.deleteUser)
 
 router.get('/signup', (req, res) => {
-  res.render('user/Signup', { user: {} })  // تمرير user فارغ لتجنب الخطأ
+  res.render('user/Signup', { user: {} })
 })
 
 router.get('/login', (req, res) => {

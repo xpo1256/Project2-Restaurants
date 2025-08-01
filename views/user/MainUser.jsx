@@ -11,7 +11,7 @@ function MainUser(props) {
         
       <div className="Top-navigation">
         <div className="left-top">
-            <h3>Restaurant App</h3>
+            <h3>Restaurant Web</h3>
             <a href="">Home</a>
             <a href="">Restaurants</a>
             <a href="">Orders</a>
