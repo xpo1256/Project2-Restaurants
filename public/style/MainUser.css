@@ -1,5 +1,5 @@
 .Top-navigation{
-    padding: 8px;
+    padding:13px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,6 +7,7 @@
     gap: 10px;
     background-color:rgb(2, 35, 71);
     color: white;
+    height: 45px;
 }
 a{
     text-decoration-line: none;
@@ -20,14 +21,15 @@ body , html{
     color: white;
     border: none;
     border-radius: 10px;
-    width: 180px;
-    height: 20px;
-    padding: 5px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
 }
 
 .Search::placeholder{
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .Main-container-1{
@@ -68,17 +70,43 @@ body , html{
     background-color: rgba(236,119,50,255);
     font-size: 20px;
     position: relative;
-    left: 165px;
+    left: 170px;
     color: white;
 }
 
-.btn-explore :hover{
+.btn-explore:hover{
     cursor: pointer;
     color: white;
 }
 
 .secLetter{
     position: relative;
-    left: 75px;
+    left: 95px;
     font-size: 25px;
+}
+
+.navigation {
+    display: flex;
+    background-color: rgb(3, 48, 96);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+.right-navigation{
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+.left-navigation{
+    display: flex;
+    gap: 20px;
+}
+
+.home{
+    font-size: 18px;
 }
