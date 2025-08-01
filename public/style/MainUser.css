@@ -1,0 +1,82 @@
+.Top-navigation{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    gap: 10px;
+    background-color:rgb(2, 35, 71);
+    color: white;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+body , html{
+    margin: 0px;
+}
+.Search{
+    background-color: rgb(3, 57, 114);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+}
+
+.Search::placeholder{
+    color: white;
+    font-size: 12px;
+}
+
+.Main-container-1{
+    display: grid;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    height: 350px;
+    background-position:50% 90%; 
+}
+
+.right-top{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.left-top{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.letter{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.btn-explore{
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(236,119,50,255);
+    font-size: 16px;
+    position: relative;
+    left: 130px;
+}
+
+.btn-explore :hover{
+    cursor: pointer;
+    color: white;
+}
+
+.secLetter{
+    position: relative;
+
+}
