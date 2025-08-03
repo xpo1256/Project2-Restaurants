@@ -5,6 +5,7 @@ const methodOverride = require('method-override')
 const cookie = require('cookie-parser')
 
 const userRoute = require('./controllers/userRoute')
+const adminRoute = require("./controllers/AdminRoute");
 
 const app = express()
 
@@ -23,12 +24,13 @@ app.use((req, res, next) => {
 
 app.use(express.static('public'))
 app.use(morgan('combined'))
-
+app.use('/adminroute', adminRoute)
 
 app.get('/test', (req, res) => {
   res.send('Test route is working!')
 })
 
-app.use('/dishly', userRoute)
+app.use('/dishly', userRoute);
+app.use('/dishly', adminRoute);
 
 module.exports = app

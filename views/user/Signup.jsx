@@ -16,6 +16,11 @@ function Signup(props) {
         <label>Password:</label>
         <input type="password" name="password" defaultValue={password} required />
 
+        <div className="radio-group">
+            <input type="radio" name="role" value="admin" required /> Admin
+            <input type="radio" name="role" value="user" required />  User
+        </div>
+
         <button type="submit">Sign Up</button>
       </form>
     </div>

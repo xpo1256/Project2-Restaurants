@@ -35,8 +35,8 @@ function MainUser(props) {
 
       <div className="navigation">
         <div className="left-navigation">
-        <a>About</a>
-        <a>Contact</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
         <a>FAQ</a>
         <a>Terms of Service</a>
         <a>Privacy-Policy</a>
