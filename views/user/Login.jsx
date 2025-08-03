@@ -29,12 +29,13 @@ function Login() {
           <div className="form-group4">
             <label className='role'>Select Role:</label>
             <div className="radio-group">
-              <label className='check1'>Admin:</label><input type="radio" name="role" value="admin" required /> 
-              <label className='check2'>User:</label><input type="radio" name="role" value="user" required />
+              <label className='check1'>Admin</label><input type="radio" name="role" value="admin" required /> 
+              <label className='check2'>User</label><input type="radio" name="role" value="user" required />
             </div>
           </div>
 
           <button type="submit" className="submitbtn">Submit</button>
+          <a className='create' href='/dishly/signup'>Create New Account</a>
         </form>
       </div>
     </>

@@ -27,7 +27,8 @@ body,html{
     height: 40px;
     border-radius: 10px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 10px ;
     color: white;
     background-color: rgba(255, 255, 255, 0.08);
     margin-bottom: 22px;
@@ -68,15 +69,29 @@ input::placeholder{
     font-size: 17px;
 }
 
+.form-group4{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
 .radio-group{
     margin-top: 10px;
 }
 .check2{
     margin-left: 30px;
+    padding-right: 10px;
     font-size: 17px;
 }
 .check1{
     font-size: 17px;
+    padding-right: 10px;
+}
+
+.create{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
 }
 
 @font-face {
