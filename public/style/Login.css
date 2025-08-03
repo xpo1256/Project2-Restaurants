@@ -1,4 +1,85 @@
 body,html{
     margin:0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../images/login.png");
+    background-size: cover;
 }
 
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    place-content: center;
+    place-items: center;
+    color: white;
+}
+
+.password , .name , .email{
+    width: 102%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-bottom: 22px;
+    margin-top: 8px;
+}
+
+.form-group4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: "contact", cursive;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.submitbtn{
+    border: 0px;
+    border-radius: 16px;
+    width: 120px;
+    height: 40px;
+    font-size: larger;
+    color:white;
+    background-color: rgb(126, 103, 35);;
+}
+.role{
+    font-size: 20px;
+}
+
+.as{
+    font-size: 17px;
+}
+
+.radio-group{
+    margin-top: 10px;
+}
+.check2{
+    margin-left: 30px;
+    font-size: 17px;
+}
+.check1{
+    font-size: 17px;
+}
+
+@font-face {
+    font-family: "contact",cursive;
+    src: url("../fonts/Contact.ttf");
+}

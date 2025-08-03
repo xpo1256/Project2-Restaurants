@@ -5,10 +5,9 @@ exports.create = async (req, res) => {
     const { name, url, orderName, typeFood, Describes } = req.body;
     const restaurant = new Restaurant({ name, url, orderName, typeFood, Describes });
     await restaurant.save();
-    res.redirect('/dishly/mainadmin?success=true')
+    res.redirect('/adminroute/dishly/mainadmin?success=true')
   } catch (error) {
     console.error(error);
-    res.redirect("/dishly/mainadmin?success=false")
+    res.redirect("/adminroute/dishly/mainadmin?success=false")
   }
 };
-
